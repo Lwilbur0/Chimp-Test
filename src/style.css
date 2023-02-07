@@ -1,0 +1,20 @@
+#gameContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 150px;
+    height: 150px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: 72px;
+  }
+  
+  .card.match {
+    background-color: green;
+    pointer-events: none;
+  }
